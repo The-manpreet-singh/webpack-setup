@@ -1,0 +1,23 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "webpack setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpreet-singh10196/webpack-setup.git"
+  },
+  "author": "manpreet-singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manpreet-singh10196/webpack-setup/issues"
+  },
+  "homepage": "https://github.com/manpreet-singh10196/webpack-setup#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
