@@ -45,14 +45,21 @@ module.exports = {
                              ident: 'postcss',
                              plugins : () => [
                                  autoprefixer({
-                                    "> 1%",
-                                    "last 2 versions"
+                                    "browsers": [
+                                        "> 1%",
+                                        "last 2 versions"
+                                    ]
                                  })
                              ]
                          }
                      }
 
                 ]
+            },
+
+            {
+               test: /\.(png|jpe?g|gif)$/,
+               loader: 'url-loader?limit=8000&name=images/[name].[ext]' 
             }
         ]
     }
